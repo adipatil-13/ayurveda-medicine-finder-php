@@ -1,0 +1,212 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f2e9; /* Green background color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #A3E634; /* Green header background */
+    padding: 20px;
+    display: inline-block;
+    /* float: center; */
+    width: 100%
+}
+
+a {
+    text-decoration: none;
+}
+
+.alldisease {
+    padding:50px;
+    /* display: flex;
+    justify-content: center; */
+    align-items: center;
+}
+
+.disease {
+    margin:50px;
+    background-color: #A3E634;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.diseaseimg {
+    width: 300px;
+    height:300px;
+}
+
+header img {
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+    max-width: 80px;
+    max-height: 50px;
+    height: auto;
+}
+
+header h1 {
+    color: #000;
+}
+
+header h4 {
+    margin-left: 70px;
+}
+
+/* Navbar Styles */
+nav {
+    background-color: #A3E634; /* Green navbar background */
+    padding: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+nav a.right {
+    float: right;
+}
+
+
+#content {
+    width: 920px;
+    min-height: 500px;
+    padding: 0 30px;
+}
+
+img.disease {
+    max-width: 50%;
+    max-height: 50%;
+    float: center;
+}
+
+/* Slideshow Styles */
+.slideshow-container {
+    border-radius: 50px;
+    margin: 100px;
+    display: none;
+    background-color: #A3E634;
+    padding:50px;
+}
+
+.slideshow-image img {
+    margin-top: 20px;
+    margin-left: 140px;
+    width: 60%;
+    border-radius: 60px;
+}
+
+.slideshow-description {
+    width: 50%;
+    margin-left: 20px;
+    margin-top: 90px;
+}
+
+.next-slide {
+    border-radius: 40px;
+}
+
+.next {
+    margin-left: 900px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+
+}
+
+/* About Us Styles */
+.about-us {
+    border-radius: 50px;
+    margin: 50px;
+    display: flex;
+    /* background-color: #A3E634; */
+    padding:20px;
+}
+
+.about-us img {
+    margin: 50px;
+    max-width: 100%;
+    border-radius: 47px;
+}
+
+.about-us-text {
+    margin-top:10px;
+    flex: 1;
+    padding: 50px;
+    text-align: center;
+}
+
+/* How It Works Styles */
+.how-it-works {
+    text-align: center;
+    border-radius: 50px;
+    margin: 100px;
+    background-color: #85bd2a;
+    padding:50px;
+}
+
+.how-it-works h2 {
+    color: #ffffff; /* Green title color */
+}
+
+.how-it-works p {
+    color: #ffffff; /* Green title color */
+}
+
+.how-it-works-description {
+    margin-top: 20px;
+}
+
+.how-it-works-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.how-it-works-box {
+    background-color: #A3E634;
+    flex: 1;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.how-it-works-box p {
+    color: #515151; /* Green title color */
+    background-color: #A3E634;
+    flex: 1;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #A3E634; /* Green footer background */
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+}
+
+footer img {
+    border-radius: 50%;
+    float: center;
+    margin-right: 20px;
+    max-width: 80px;
+    max-height: 50px;
+    height: auto;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
